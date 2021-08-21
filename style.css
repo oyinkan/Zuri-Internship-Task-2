@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  color: #000;
+}
+.ml-auto {
+  margin-left: auto!important;
+}
+.navbar {
+  background: #000;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 5rem;
+} 
+.navbar .logo {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.navbar-nav li {
+  display: flex;
+}
+.navbar-nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.navbar-nav li a.active,
+.navbar-nav li a:hover:not(.active) {
+  color: rgba(255, 255, 255);
+}
+
+/* introduction */
+.container-fluid {
+  width: 90%;
+  margin: auto;
+}
+#introduction {
+  padding: 7rem 0 14rem 0;
+  background: #030303;
+  color: #fff;
+}
+#introduction p {
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: 1.333;
+  color: #cf1767;
+}
+#introduction h1 {
+  font-size: 7rem;
+  font-weight: 500;
+}
+#about {
+  padding: 6rem 0;
+}
+.heading,
+H4 {
+  font-weight: 600;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+}
+.heading {
+  padding-top: 3.2rem;
+  margin-bottom: 6rem;
+  position: relative;
+}
+.heading::before {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 2px;
+  background-color: #cf1767;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.d-flex {
+  display: flex;
+}
+.w-50 {
+  width: 50%;
+}
+.pr-3 {
+  padding-right: 1rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.833;
+  color: #000000;
+  text-align: justify;
+}
+.pl-3 {
+  padding-left: 1rem;
+}
+.mb-5 {
+  margin-bottom: 3rem;
+}
+.mt-3 {
+  margin-top: 1rem;
+}
+#works p {
+  font-weight: 500;
+  color: #000;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+#works .work-date {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  padding-left: 0;
+}
+.work-title {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.work-subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 2.5rem;
+  font-weight: 500;
+}
+#works .work-description p {
+  margin-right: 3.5rem;
+  padding-left: 0;
+}
+#advert,
+#contact {
+  background: #010101;
+}
+#advert {
+  color: #fff;
+  padding: 4rem 7rem;
+  text-align: center;
+}
+#advert h2 {
+  font-size: 5.6rem;
+  font-weight: 500;
+}
+#advert p {
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+.btn-reach {
+  display: inline-block;
+  background: #cf1767;
+  border: 1px solid #cf1767;
+  padding: 1.2rem 3rem;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 2rem;
+}
+.btn-reach:hover {
+  background: transparent;
+  color: #cf1767;
+}
+#works,
+footer {
+  padding: 6rem 0;
+}
+#works a {
+  display: block;
+  background-color: #EFEFEF;
+  width: 32%;
+}
+#works img {
+  width: 100%;
+}
+#works .title {
+  width: 70%;
+  margin: auto;
+  font-size: 4rem;
+  margin-bottom: 6rem;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+#contact,
+#contact h3 a  {
+  color: #fff;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+#contact {
+  padding: 4rem 0;
+}
+#contact p {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.35)
+}
+#contact h3 {
+  font-size: 3.5rem;
+}
+#contact h3 a:hover {
+  color: #cf1767;
+}
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+.text-center {
+  text-align: center!important;
+}
+.align-items-center {
+  align-items: center;
+}
+footer img {
+  width: 7rem;
+}
+.mr-3 {
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  #introduction {
+    padding: 7rem 0;
+  }
+  #introduction p {
+    font-size: 2rem;
+  }
+  #introduction h1 {
+    font-size: 5rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  #contact h3 {
+    font-size: 2.5rem;
+  }
+  #works .d-flex,
+  #about .d-flex {
+    display: block;
+  }
+  #works a {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  #works .title {
+    width: 90%;
+    font-size: 3rem;
+  }
+  #advert {
+    padding: 4rem;
+  }
+  #advert h2 { 
+    font-size: 4rem;
+  }
+  .w-50 {
+    width: 100%;
+  }
+  .pl-3 {
+    padding-left: 0;
+  }
+}

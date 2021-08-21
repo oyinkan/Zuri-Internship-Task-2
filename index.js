@@ -1,0 +1,1 @@
+const myName = document.querySelector("#myName").innerHTML = "Sakirat Kehinde Usman";
